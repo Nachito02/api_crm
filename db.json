@@ -7,6 +7,14 @@
       "telefono": "1140607894",
       "notas": "Proyecto hecho con react y librerias para los formularios",
       "id": 1
+    },
+    {
+      "nombre": "dsa",
+      "empresa": "dsa",
+      "email": "arguellojuan08@gmail.com",
+      "telefono": "11",
+      "notas": "sda",
+      "id": 2
     }
   ]
 }

@@ -1,4 +1,3 @@
-import React from "react";
 
 import { Outlet,Link, useLocation } from "react-router-dom";
 
@@ -18,13 +17,13 @@ const Layout = () => {
         <nav className="mt-10">
           <Link
             className= {`${urlActual === '/clientes' ? 'text-blue-300 ': 'text-white'} text-2xl block mt-2 hover:text-blue-300`}
-            to="/clientes"
+            to="/"
           >
             Clientes
           </Link>
           <Link
-            className= {`${urlActual === '/clientes/nuevo' ? 'text-blue-300 ': 'text-white'} text-2xl block mt-2 hover:text-blue-300`}
-            to="/clientes/nuevo"
+            className= {`${urlActual === '/nuevo' ? 'text-blue-300 ': 'text-white'} text-2xl block mt-2 hover:text-blue-300`}
+            to="/nuevo"
           >
             Nuevo Clientes
           </Link>
