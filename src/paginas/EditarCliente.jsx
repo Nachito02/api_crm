@@ -13,7 +13,7 @@ const EditarCliente = () => {
       setCargando(!cargando);
     }, 1000);
     const obtenerClienteApi = async () => {
-      const url = `http://localhost:4000/clientes/${id}`;
+      const url = `${import.meta.env.VITE_API_URL}/${id}`;
       try {
         const respuesta = await fetch(url);
         const resultado = await respuesta.json();

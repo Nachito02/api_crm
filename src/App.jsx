@@ -10,6 +10,8 @@ import VerCliente from "./paginas/VerCliente";
 function App() {
   const [count, setCount] = useState(0);
 
+  
+
   return (
     <BrowserRouter>
       <Routes>
