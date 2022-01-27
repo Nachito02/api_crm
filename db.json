@@ -1,0 +1,12 @@
+{
+  "clientes": [
+    {
+      "nombre": "Juan Arguello",
+      "empresa": "Hooks Solutions",
+      "email": "arguellojuan08@gmail.com",
+      "telefono": "1140607894",
+      "notas": "Proyecto hecho con react y librerias para los formularios",
+      "id": 1
+    }
+  ]
+}
